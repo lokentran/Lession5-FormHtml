@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Form Simple</title>
+    <style>
+        body {
+            font-family: Lucida Grande;
+        }
+    </style>
+</head>
+<body>
+    <form action="simpleform.html" method="GET">
+        <h2>Order Form</h2>
+        <h4>What would you like to buy?</h4>
+        <select name="" id="">
+            <option value="">A</option> 
+            <option value="">B (+ 0.5$)</option>
+            <option value="">C (+ 0.5$)</option>
+        </select>
+
+        <h4>How many would you like to order?</h4>
+        <label for=""><input name="order" type="radio">1-10$</label><br>
+        <label for=""><input name="order" type="radio">11-20$</label><br>
+        <label for=""><input name="order" type="radio">21-30$</label>
+
+        <h4>Name*</h4>
+        <input required type="text" name="firstName" id="" placeholder="First Name" >
+        <input required type="text" name="lastName" id="" placeholder="Last Name">   
+
+        <h4>Email</h4>
+        <input type="text" name="email">
+        
+        <h4>Phone</h4>
+        <input type="number"> - <input type="number"> - <input type="number">
+
+        <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
