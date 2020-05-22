@@ -8,26 +8,27 @@
 <body>
     <form action="" method="post">
        <fieldset>
-            <legend>User</legend>
+            <legend><strong>User</strong></legend>
             Name<input type="text" name="name"><br>
             Password<input type="password" name="name"><br>
 
 
        </fieldset> 
 
-       <span>Hobbies</span>
-       <label for=""><input type="checkbox" name="game" id="">Game</label>
-       <label for=""><input type="checkbox" name="football" id="">Football</label>
-       <label for=""><input type="checkbox" name="swimming" id="">Swimming</label>
+       <strong>Hobbies</strong>
+       <label for=""><input name="hobby" type="checkbox"  id="">Game</label>
+       <label for=""><input name="hobby" type="checkbox"  id="">Football</label>
+       <label for=""><input name="hobby" type="checkbox"  id="">Swimming</label>
        
-
-
-
-
-
-
-
-       <br><input type="submit" value='Submit'>
+      <br> <strong>Gender</strong>
+       <label for=""><input name="gender" type="radio">Male</label>
+       <label for=""><input name="gender" type="radio">Female</label>
+       <label for=""><input name="gender" type="radio">Both</label>
+       
+       <br><strong>Comment
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        <br><input type="submit" value='Submit'>
+            <input type="reset" value='Reset'>
 
     </form>
 
